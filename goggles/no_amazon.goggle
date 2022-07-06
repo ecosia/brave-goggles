@@ -24,4 +24,7 @@ $discard,site=amazon.ph
 $discard,site=amazon.pt
 $discard,site=amazon.ru
 $discard,site=amazon.com
-$discard,bezos$intitle,bezos$indescription,bezos$inurl,bezos$incontent
+bezos$intitle,$discard
+bezos$indescription,$discard,
+bezos$inurl,$discard
+bezos$incontent,$discard
