@@ -1,0 +1,26 @@
+! name: No Amazon
+! description: Rerank results to remove pages / threads hosted on amazon.
+! public: true
+! author: Goggles 101
+! avatar: #de0320
+
+$discard,site=amazon.at
+$discard,site=amazon.ca
+$discard,site=amazon.ch
+$discard,site=amazon.cl
+$discard,site=amazon.co.kr
+$discard,site=amazon.co.uk
+$discard,site=amazon.com
+$discard,site=amazon.com.au
+$discard,site=amazon.com.mx
+$discard,site=amazon.de
+$discard,site=amazon.dk
+$discard,site=amazon.es
+$discard,site=amazon.fr
+$discard,site=amazon.ie
+$discard,site=amazon.it
+$discard,site=amazon.nz
+$discard,site=amazon.ph
+$discard,site=amazon.pt
+$discard,site=amazon.ru
+$discard,site=amazon.com
